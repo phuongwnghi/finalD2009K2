@@ -1,0 +1,179 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,200;0,300;0,500;1,200;1,300;1,500&display=swap');
+*{margin: 0;padding: 0;}
+/*reset css*/
+#wrapper {
+	width:1024px;
+	margin: 0 auto;
+}
+header {
+	width:100%;
+	height: 170px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1{
+	color: #000462;
+}
+p{
+	color: #000462;
+}
+h3{
+	color:#000462;
+	font-family: 'Lato', sans-serif;
+}
+h4{
+	color:#E3EAE8;
+	font-size: 16px;
+}
+.header-main{
+	width:100%;
+	height:90px;
+}
+.logo {
+	width: 15%;
+	height:90 px;
+	float: left;
+	line-height: 90 px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.logo a{
+	font-size: 25px;
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+.banner{
+	width: 85%;
+	height:90px;
+	float:right;
+}
+.banner h3{
+	line-height: 90px;
+	color: #000462;
+	text-align: center; 
+	font-size: 33px;
+}
+.header-bottom{
+	width:100%;
+	height: 40px;
+	border: 2px solid #000462;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.header-bottom ul{
+	list-style: none;
+	text-align: center;
+	color: #000462;
+}
+.header-bottom ul li{
+	display: inline-block;
+	line-height: 38px;
+	margin: 0 20px;
+	font-size: 18px;
+	color: #000462;
+}
+.header-bottom a{
+	text-decoration: none;
+	color: #000462;
+}
+.header-bottom a:hover{
+	color:#1A78FF;
+}
+.box2 a:hover {
+	color: aqua;
+}
+main {
+	width:100%;
+	height: 500px;
+	margin: 20px 0;
+}
+#wrapper2{
+	width: 1024px;
+	height: 220px;
+	margin: 0 auto;
+}
+.personal{
+	margin: 20px;
+}
+.box{
+	width: 190px;
+	height: 200px;
+	float: left;
+	margin-left: 55px;
+	margin-top: 20px;
+}
+.box1{
+	width: 350px;
+	height: 200px;
+	float: right;
+	margin-right: 85px;
+	margin-top: 170px;
+}
+.box2{
+	width: 300px;
+	margin: 30px 35px 30px 75px;
+}
+.container{
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+p1{
+	font-size: 23px;
+	color:#F3F8F9;
+}
+.wrapper3{
+	width: 1024px;
+	height: 500px;
+	background: url("../img/christoffer-engstrom-wc9avd2RaN0-unsplash.jpg");
+	background-size: cover;
+    box-sizing: border-box;
+}
+h2{
+	line-height: 500px;
+	font-size: 40px;
+	color:#FFFFFF;
+	text-shadow: 0 12px 20px rgba(0,0,0,0.9), 1px 1px 1px rgba(206,89,55,0);
+}
+.video{
+	width:50%;
+	height: 350px;
+	background:#7092A3;
+	float: left;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.info{
+	width: 45%;
+	height: 350px;
+	float: right;
+	background: #00223C;
+	border-radius: 10px;
+}
+.clear{
+	clear:both;
+}
+#wrapper4{
+	width: 1024px;
+	height: 600px;
+	background:url("../img/janayara-machado-2ljUcEZ7A5s-unsplash.jpg");
+	background-size: cover;
+    box-sizing: border-box; 
+	padding-top: 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+footer{
+	clear:both;
+	width: 30%;
+	-webkit-box-shadow: 2px 3px 6px 3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 2px 3px 6px 3px rgba(0,0,0,0.51);
+	box-shadow: 2px 3px 6px 3px rgba(0,0,0,0.51);
+	border-radius: 3px;
+	margin: 30px auto 15px auto;
+}
+
+
